@@ -60,7 +60,21 @@ public class ProgVettoriDinamici {
         System.out.println(lista);
         
         System.out.println(lista.isEmpty());
+        // La parte 2;
         
+        Pila laPila = new Pila();
+        
+        laPila.push("sium");
+        System.out.println(laPila.pop());
+        
+        laPila.push("sium1");
+        laPila.push("sium2");
+        laPila.push("sium3");
+        laPila.push("sium4");
+        System.out.println(laPila.pop());
+        System.out.println(laPila.pop());
+        System.out.println(laPila.pop());
+        System.out.println(laPila.pop());
     }
     
 }
